@@ -1,0 +1,12 @@
+.mapWrapper{
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 120px;
+}
