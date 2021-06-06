@@ -1,24 +1,33 @@
 .wrapper {
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 230px;
+  width: 4em;
+  height: 2.3em;
 }
 
 .wrapper div {  
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   width: 100%;
   height: 100%;
-  border: 4px solid #fff;
-  border-color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  /* border-color: black; */
   background-color: tomato;
 }
+
 .wrapper div.center2 {
   transform: rotate(60deg);
   background-color: tomato;
 }
+
 .wrapper div.center3 {
   transform: rotate(-60deg);
   background-color: tomato;
 }
+
+.blue div,
+.blue div.center2,
+.blue div.center3{
+  background-color: aqua;
+} 
